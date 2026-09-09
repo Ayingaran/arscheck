@@ -6,9 +6,7 @@ It helps exhibition staff manage visitors, guided tours, ticket check-ins, QR sc
 
 ## Live Demo
 
-[Open ArsCheck](https://your-site-name.netlify.app)
-
-> Replace the URL above with your actual Netlify deployment URL.
+[Open ArsCheck](https://arscheck.netlify.app/)
 
 ## Features
 
@@ -332,7 +330,7 @@ Never commit `.env.local` to GitHub.
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/arscheck.git
+git clone https://github.com/Ayingaran/arscheck.git
 ```
 
 Enter the project:
@@ -410,23 +408,6 @@ NEXT_PUBLIC_SUPABASE_ANON_KEY
 SUPABASE_SERVICE_ROLE_KEY
 ```
 
-## Screenshots
-
-Create a folder in the repository:
-
-```text
-screenshots
-```
-
-Then add screenshots using names like:
-
-```text
-dashboard.png
-scanner.png
-visitors.png
-tours.png
-login.png
-```
 
 ### Admin Dashboard
 
