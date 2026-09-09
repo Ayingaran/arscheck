@@ -477,3 +477,9 @@ https://linkedin.com/in/ayingaran17
 ## License
 
 This project was developed as a portfolio and learning project.
+
+## Demo Access
+
+A public demo account is not included in this repository for security reasons.
+
+Please contact me if you would like temporary demo access.
