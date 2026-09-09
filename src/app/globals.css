@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-sans: var(--font-inter);
+  --font-display: var(--font-playfair);
+}
+
+:root {
+  --ink: #0f0f11;
+  --paper: #f9f8f6;
+  --panel: #ffffff;
+  --muted: #71717a;
+  --line: #e6e3de;
+  --gold: #d4af37;
+  --emerald: #10b981;
+  --danger: #ef4444;
+}
+
+* { box-sizing: border-box; }
+html { background: var(--paper); }
+body {
+  margin: 0;
+  background:
+    radial-gradient(circle at 85% 0%, rgba(212,175,55,.09), transparent 28%),
+    var(--paper);
+  color: var(--ink);
+  font-family: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+}
+
+button, input { font: inherit; }
+button { cursor: pointer; }
+
+.gallery-noise::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  opacity: .028;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 120 120' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.55'/%3E%3C/svg%3E");
+  z-index: 100;
+}
+
+.editorial-shadow { box-shadow: 0 20px 70px rgba(15,15,17,.06); }
+.glass { background: rgba(255,255,255,.72); backdrop-filter: blur(18px); }
+.scrollbar-hide::-webkit-scrollbar { display:none; }
+.scrollbar-hide { scrollbar-width:none; }
